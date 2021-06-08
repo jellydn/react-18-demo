@@ -3,9 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+// @ts-expect-error more detail on https://github.com/reactwg/react-18/discussions/5
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<App />);
