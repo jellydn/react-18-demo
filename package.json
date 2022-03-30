@@ -10,8 +10,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "react": "18.0.0-rc.3-next-de516ca5a-20220321",
-    "react-dom": "18.0.0-rc.3-next-de516ca5a-20220321",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
     "react-query": "3.34.19"
   },
   "devDependencies": {
