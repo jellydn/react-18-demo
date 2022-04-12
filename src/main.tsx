@@ -1,9 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
+import ReactDOM from "react-dom/client";
+
 import App from "./App";
+import "./index.css";
 
-// @ts-expect-error more detail on https://github.com/reactwg/react-18/discussions/5
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<App />);
+ReactDOM.createRoot(document.getElementById("root")!).render(<App />);

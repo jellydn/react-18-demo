@@ -2,8 +2,8 @@ import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 
-import logo from "./logo.svg";
 import "./App.css";
+import logo from "./logo.svg";
 
 const queryClient = new QueryClient();
 
@@ -18,9 +18,11 @@ function App() {
   );
 }
 
-export default () => (
-  <QueryClientProvider client={queryClient}>
-    <App />
-    <ReactQueryDevtools initialIsOpen={false} />
-  </QueryClientProvider>
-);
+export default function () {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <App />
+      <ReactQueryDevtools initialIsOpen={false} />
+    </QueryClientProvider>
+  );
+}
