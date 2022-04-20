@@ -1098,10 +1098,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@ladle/react@0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@ladle/react/-/react-0.12.0.tgz#add298e1374f67c14890c8521c48139a097d710c"
-  integrity sha512-dJaZhHwt6LRXTy/buI/KDhOg6AzGO8COV73jbNtRwYtjUkbnmCmFT0G9pGSsjoALJzcDjQ4HEJt9tHjo5ZhY9A==
+"@ladle/react@0.12.2":
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/@ladle/react/-/react-0.12.2.tgz#3a610a505fd4855c7fcf561433407f4acbbfe11f"
+  integrity sha512-BtPx1do6yUMGUdlZfBgeBfQeDgWqICzDAXqNy1bKjbERitd87UCAgtIZB8hJ2KfKM7btJWbkX83nw16mYkkw3g==
   dependencies:
     "@babel/code-frame" "^7.16.7"
     "@babel/core" "^7.17.8"
@@ -1126,7 +1126,6 @@
     get-port "^5.0.0"
     globby "^11.0.4"
     history "^5.3.0"
-    lodash.clonedeep "^4.5.0"
     lodash.merge "^4.6.2"
     micromatch "^4.0.5"
     open "^8.4.0"
@@ -3082,11 +3081,6 @@ locate-path@^5.0.0:
   integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
   dependencies:
     p-locate "^4.1.0"
-
-lodash.clonedeep@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
-  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
