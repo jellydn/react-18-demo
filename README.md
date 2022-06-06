@@ -6,6 +6,8 @@
 
 > React 18 Demo App
 
+[![React 18 Alpha Overview](https://img.youtube.com/vi/9YRy9pWT8Po/0.jpg)](https://www.youtube.com/watch?v=9YRy9pWT8Po)
+
 ## Install
 
 ```sh
